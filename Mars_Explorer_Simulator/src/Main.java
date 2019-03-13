@@ -56,7 +56,6 @@ public class Main {
 				 pattern = Pattern.compile(regex);
 				 matcher = pattern.matcher(command);
 				 matches = matcher.matches();
-				 System.out.println(command);
 
 				 if (matches == true) {
 					 int X = Integer.parseInt(String.valueOf(command.charAt(5)));
