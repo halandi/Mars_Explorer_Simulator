@@ -20,7 +20,8 @@ public class Main {
 		String user_name = input.nextLine();
 		
 		System.out.print("Hi " + user_name + ", Welcome to Mars Explorer Simulator \n");
-		
+		System.out.print("Please do read the instructions on README file first before you continue \n");
+
 		Game game = new Game();
 		game.GameMap();
 		
@@ -71,11 +72,6 @@ public class Main {
 		} else {
 			System.out.println("Invalid Command");
 		}
-
-		//game.placeExplorer(0, 1);
-		//game.reportExplorer();
-		//game.moveExplorer(3, 4);
-		
 		game.update();
 		}
 		
